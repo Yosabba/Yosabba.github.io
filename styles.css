@@ -124,6 +124,12 @@ img {
   padding-bottom: 100px;
 }
 
+.contact > h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  
+}
+
 .cont {
   display: flex;
   align-items: center;
@@ -136,9 +142,10 @@ contact-text {
 }
 
 .contact-text h3 {
-  font-size: 3rem;
-  font-weight: 500;
-  
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-right: 1rem;
   
 }
 
@@ -215,7 +222,9 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 20vh;
+  height: 5vh;
+  background-color: black;
+  color: white;
 }
 
 /* Footer Styles End */
@@ -280,13 +289,18 @@ footer {
 
   /* about me end */
 
+  /* footer */
+  footer {
+    height: 10vh;
+  }
+
   /* Contact form */
   .cont {
-    display: block;
     flex-direction: column;
   }
   .contact {
-    padding-top: 5rem;
+    padding-top: 4rem;
+    height: 100%;
   }
   .cont .contact-form form input,
   .cont .contact-form form textarea {
@@ -304,4 +318,9 @@ footer {
   .socials {
     width: 8vw;
   }
+
+  .contact-text h3 {
+    width: 90vw;
+    text-align: center;
+}
 }
