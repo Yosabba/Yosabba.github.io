@@ -11,103 +11,23 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <title>Dominic Portfolio</title>
+    <title>Form</title>
   </head>
   <body>
-    <!-- header with links -->
-    <header>
-      <h1>DJ</h1>
-      <ol>
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-      </ol>
-    </header>
-    <main>
-      <!-- Hero section -->
-      <section class="hero">
-        <img src="./profilepic.png" alt="Picture of dominic" />
-        <div class="hero-text">
-          <h2>Hello, I'm <span>Dominic</span>.</h2>
-          <p>
-            A Software Developer located in Atlanta, GA. I'm a software developer
-            with a passion for creating things that make people's lives easier.
-            My favorite things to do are to code and work on cars.
-          </p>
-        </div>
-      </section>
-
-      <hr/>
-
-      <!-- about section -->
-      <article id="about" class="about-me">
-        <h3>About Me</h3>
-        <p>
-          I have a passion for creating things that will make people's lives
-          easier. My favorite things to do are to code and work on cars. I
-          graduated with a (AS) Associates of Science in Computer Science at
-          KCC. One of my favorite hobby's is to
-          rebuild car motors. I think working on cars helps me work on my
-          problem solving ability. You run into constant problems adn need to
-          come up with effective solutions
-        </p>
-        <h3>My Favorite hobby's</h3>
-        <ul>
-          <li>rebuilt 2 engines</li>
-          <li>300 books read</li>
-          <li>love nature</li>
-          <li>love to code</li>
-        </ul>
-      </article>
-      <!-- contact section with form -->
-      <section id="contact" class="contact">
-        <h2>Contact</h2>
-        <div class="cont container">
-          <div class="contact-text">
-            <h3>Would love to hear from you Feel free to reach out</h3>
-            <figure>
-              <img class="socials" src="./Octicons-mark-github.svg" alt="" />
-              <figcaption>
-                <a href="https://github.com/yosabba/"> Github </a>
-              </figcaption>
-            </figure>
-            <figure>
-              <img class="socials" src="./Linkedin_icon.svg" alt="" />
-              <figcaption>
-                <a href="https://LinkedIn.com"> LinkedIn </a>
-              </figcaption>
-            </figure>
-            <h6>Email</h6>
-            <a href="mailto::djohnson3794@gmail.com" class="mail"
-              >djohnson3794@gmail.com</a
-            >
-          </div>
-          <div class="contact-form">
-            <form>
-              <label for="name">Name</label>
-              <input type="text" name="name" id="name" required />
-              <label for="email">Email</label>
-              <input type="email" name="email" id="email" required />
-              <label for="message">Message</label>
-              <textarea
-                name="message"
-                id="message"
-                cols="30"
-                rows="5"
-                required
-              ></textarea>
-              <input type="submit" value="submit" />
-            </form>
-          </div>
-        </div>
-      </section>
-    </main>
-<!-- footer -->
-    <footer>
-      <p>&copy; 2022 Dominic Portfolio All rights reserved</p>
-    </footer>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" required />
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" required />
+      <label for="message">Message:</label>
+      <textarea
+        name="message"
+        id="message"
+        cols="30"
+        rows="5"
+        required
+      ></textarea>
+      <input type="submit" value="submit" />
+    </form>
   </body>
 </html>
